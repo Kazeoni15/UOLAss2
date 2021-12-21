@@ -15,12 +15,22 @@
      -->
     <div class="header">
         <!-- But Logo / Home both will redirect to index.html -->
+<<<<<<< HEAD
         <nav class="menu_bar">
             <li>
                 <a href="#"><img src="" alt="logo/home "></a>
             </li>
             <li><a href="#">Information</a></li>
             <li><a href="#">Home</a></li>
+=======
+        <nav>   
+            <ul>
+                <li><a href="/index.html"><img src="./UOLthemepark.jpg" alt="logo/home "></a></li>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/information.html">Information</a></li>
+            </ul>
+
+>>>>>>> main
         </nav>
     </div>
     <!-- this is body section that will include each service -->
@@ -29,44 +39,43 @@
         <div class="item_section">
             <!-- Detailed description for tickets -->
             <p class="ticket_description">
-                weekdays adult : 30 Euros children : 15 Euros weekend adult: 45 Euros children : 30 Euros
+                <b>Weekends	*Adult - 45 Euros, *Children - 30 Euros</b>
             </p>
             <!-- Purchase submission form -->
-            <form class="purchase_info">
-                <input type="text">
+            <form class="purchase_info" method="post">
+                <input type="number"> Adult(s)
+                <input type="number"> Kid(s)
+                <input class="purchase_button" type="submit" value="submit">
             </form>
-            <button class="purchase_button" type="submit">
-                Purchase button
-            </button>
+            
         </div>
         <!-- accomodation item section -->
         <div class="item_section">
             <!-- Detailed description for accomodation -->
             <p class="accomodation_description">
-                accomodation details Sunday ~ Thursday : 100 Euros/day Friday~Saturday : 150 Euros/day
+                <b>Accomodation details Sunday ~ Thursday : 100 Euros/day Friday~Saturday : 150 Euros/day</b>
             </p>
             <!-- Purchase submission form -->
-            <form class="purchase_info">
-                <input type="text">
+            <form class="purchase_info" method="post">
+                <input type="number"> Adult(s)
+                <input type="number"> Kid(s)
+                <input class="purchase_button" type="submit" value="submit">
             </form>
-            <button class="purchase_button" type="submit">
-                Purchase button
-            </button>
         </div>
         <!-- restaurent item section -->
         <div class="item_section">
             <!-- Detailed description for restaurent -->
             <p class="restaurants_description">
-                Restaurants family restaurants - all you can eat! adult : 25 Euros children : 15 Euros
+                <b>Restaurants family restaurants - all you can eat! adult : 25 Euros children : 15 Euros</b>
             </p>
             <!-- Purchase submission form -->
 
-            <form class="purchase_info">
-                <input type="text">
+            <form class="purchase_info" method="post">
+                
+                <input type="number"> Adult(s)
+                <input type="number"> Kid(s)
+                <input class="purchase_button" type="submit" value="submit">
             </form>
-            <button class="purchase_button" type="submit">
-                Purchase button
-            </button>
         </div>
         <!-- souvenir item section -->
 
@@ -74,16 +83,21 @@
             <!-- Detailed description for souvenir -->
 
             <p class="Souvenir_description">
-                Souvenir Miniature key ring mug cup pen hoodie doll stuffedanimals figure chocolate
+               <b> Souvenirs / Miniature / Key Ring / Mug Cup / Pen / Hoodie / Doll / Stuffed Animals / Chocolate</b>
             </p>
             <!-- Purchase submission form -->
 
-            <form class="purchase_info">
-                <input type="text">
+            <form class="purchase_info" method="post">
+                
+                <input type="checkbox"> Miniature
+                <input type="checkbox"> Key Ring
+                <input type="checkbox"> Mug Cup
+                <input type="checkbox"> Hoodie
+                <input type="checkbox"> Doll
+                <input type="checkbox"> Stuffed animals
+                <input type="checkbox"> Chocolate               
+                <input class="purchase_button" type="submit" value="submit">
             </form>
-            <button class="purchase_button" type="submit">
-                Purchase button
-            </button>
         </div>
     </div>
 
