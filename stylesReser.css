@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+
+
+/* Grid for information */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  
+  padding: 10px;
+  
+}
+
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.grid-links{
+  text-decoration: none;
+  color: red;
+}
+
+.grid-links:hover{
+  color:black
+}
+
+
+/* grid for list of rides */
+
+.listh1{
+  text-align: center;
+  width: 100%;
+  background-color:rgb(182, 14, 48) ;
+  padding: 20px;
+  
+}
+
+.listh1:hover{
+  color:black
+
+}
+
+.list-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: rgb(39, 30, 30);
+  color: white;  
+  padding: 10px;
+  
+}
+
+.list-item{
+  padding: 20px;
+  font-size: 19px;
+  text-align: center;
+  /* border: 1px solid rgba(245, 10, 10, 0.8); */
+}
+
+.ridepic{
+  width: 50%;
+
+}
+
+/* map */
+
+.map{
+  background-color:grey;
+  text-align: center;
+  padding: 20px;
+}
+
+/* schedule */
+
+.schedule{
+  background-color: rgb(39, 30, 30);
+  color: azure;
+  text-align: center;
+  padding-bottom: 20px;
+  
+}
+
+.schedule h1{
+  padding: 20px;
+
+}
+
+/* contact */
+
+.contact, .info-contact {
+  padding: 25px;
+  background-color: rgb(167, 151, 151);
+  text-align: center;
+}
+
+.info-contact-h1 {
+  padding: 15px;
+}
+
+.contact a{
+  text-decoration: none;
+  color: rgb(17, 0, 0);
+}
+
+.contact a:hover{
+  color: white;
+}
+
+/* information */
+
+.info-container{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  color: white;
+  background-color: black;
+  padding: 10px;
+
+}
+
+.info-item{
+  padding: 20px;
+  font-size: 19px;
+  text-align: center;
+  font-family: Helvetica;
+  
+  /* border: 1px solid rgba(245, 10, 10, 0.8); */
+}
+.info-item h1{
+  font-size: 25px;
+  font-weight: bold; 
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+
+}
+
+#covid, #safety, #offers{
+  
+  
+  padding: 25px;
+  width: 50%;
+  align-items:center;
+  
+  
+
+}
+
