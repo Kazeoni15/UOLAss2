@@ -1,184 +1,246 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="reservation" content="Information page">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reservation Page</title>
-</head>
-
-<body>
-    <div class="header">
-        <!-- But Logo / Home both will redirect to index.html -->
-        <nav>
-            <ul>
-<<<<<<< HEAD
+    <!DOCTYPE html>
+    <html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="reservation" content="Information page">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="stylesReser.css">
+        <link rel="stylesheet" href="nav.css">
+        <title>Reservation Page</title>
+    </head>
+    
+    <body>
+        <nav class="navbar">
+            <span class="navbar-toggle" id="js-navbar-toggle">
+              <i class="fas fa-bars"></i>
+            </span>
+            <a href="/index.html"
+              ><img src="raceland.png" alt="logo/home" class="logo"
+            /></a>
+            <ul class="main-nav">
+              <li>
+                <a href="/index.html" class="nav-links">Home</a>
+              </li>
+              <li>
+                <a href="/information.html" class="nav-links">Information</a>
+              </li>
+              <li>
+                <a href="/reservation.html" class="nav-links">Reservations</a>
+              </li>
+            </ul>
+          </nav>
+        <!-- A section for covid information -->
+        <div id="covid">
+            <h1 style="color: rgb(71, 13, 13);">Covid information</h1>
+            <ul style="padding-left: 3rem;">
                 <li>
-                    <a href="#"><img src="" alt="logo/home "></a>
+                  We recommend customers to stand at a certain distance when
+                  purchasing tickets and entering the main gate.
                 </li>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Reservation</a></li>
-            </ul>
-        </nav>
-    </div>
-    <!-- A section for covid information -->
-    <div #id='covid'>
-        <p class='covid-info'>
-=======
-                <li><a href="/index.html"><img src="./UOLthemepark.jpg" alt="logo/home "></a></li>
-                <li><a href="/index.html">Home</a></li>
-                <li><a href="/reservation.html">Reservation</a></li>
-            </ul>
-
-        </nav>
-    </div>
-    <!-- A section for covid information -->
-    <div id='covid'>
-        <div class='covid_info'>
->>>>>>> main
-            <b>COVID-19 Warning</b>
-            <p>
-                An inherent risk of exposure to COVID-19 exists in any public place where people are present.
-            </p>
-<<<<<<< HEAD
-        </p>
-    </div>
-    <!-- A section for safety information -->
-    <div #id='safety'>
-        <p class='safety_text'>
-            Observe Age, Height and Weight requirements.<br> Follow instructions of ride operators.</br><br> Keep hands, arms and legs inside the ride at all times.</br> Use safety equipment such as seat belt, shoulder harness or lap bar when provided.<br>            Watch the ride in pertaion and make sure your child can ride it safely.</br>
-        </p>
-    </div>
-    <div #id='offers'>
-=======
+                <li>
+                  For the safety of our customers and employees before entering the
+                  park, you must check your temperature and wear a mask.
+                </li>
+               
+              </ul>
         </div>
-    </div>
-    <!-- A section for safety information -->
-    <div id='safety'>
-        <p class='safety_text'>
-            Observe Age, Height and Weight requirements.<br> Follow instructions of ride operators.<br> Keep hands, arms and legs inside the ride at all times. Use safety equipment such as seat belt, shoulder harness or lap bar when provided.<br>  Watch the ride in pertaion and make sure your child can ride it safely.
-        </p>
-    </div>
-    <div id='offers'>
->>>>>>> main
-        <p>
-            STUDENT DISCOUNT 5 Euros OFF <br> Wednesday Offer: CARTING 20% OFF
-        </p>
-    </div>
-    <!-- This is a section for list of rides -->
-<<<<<<< HEAD
-    <div #id='list_rides'>
-=======
-    <div id='list_rides'>
->>>>>>> main
-        <!-- table that include all the information regarding rides -->
-        <table>
-            <!-- subjects -->
-            <tr>
-                <th>Name of ride</th>
-                <th>Description</th>
-                <th>Age</th>
-                <th>Height</th>
-                <th>Picture</th>
-            </tr>
-            <!-- Followings are the rides -->
-            <tr>
-                <td>VR Simulation</td>
-                <td>Race in a VR world for a full immersive experience. You will be provided with a wheel, pedals and a VR headset.</td>
-                <td>13+</td>
-                <td>120 cm</td>
-                <td>
-                    <img src="https://www.bmw.com/content/dam/bmw/marketBMWCOM/bmw_com/events/nextgen/innovation_technology/global_collaboration/p11_116_T7K9453_16x9_Video_Fallback.jpg?uri=%2Fen%2Fevents%2Fnextgen%2Fglobal-collaboration.json.videoplayer.video-1052734633.html&poster=%2Fcontent%2Fdam%2Fbmw%2FmarketBMWCOM%2Fbmw_com%2Fevents%2Fnextgen%2Finnovation_technology%2Fglobal_collaboration%2Fp11_116_T7K9453_16x9_Video_Fallback.jpg"
-                        alt="Man enjoying his VR simulation">
-                </td>
-            </tr>
-            <tr>
-                <td>Pendulum Ride</td>
-                <td>This ride will test the integrity of your stomach, so make sure you don't eat anything funny before riding.
-                </td>
-                <td>16+</td>
-                <td>130cm</td>
-                <td>
-                    <img src="https://images.unsplash.com/photo-1609350450088-99bca752385c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1652&q=80" alt="Pendulum ride on motion">
-                </td>
-            </tr>
-            <tr>
-                <td>Carting</td>
-                <td>A genuine racing experience. Feel the need... the need for speed.</td>
-                <td>18+</td>
-                <td>120cm</td>
-                <td>
-                    <img src="https://images.unsplash.com/photo-1560990817-2a0037ed1246?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80" alt="Four men enjoying with their go-cart">
-                </td>
-            </tr>
-            <tr>
-                <td>Bumper Cars</td>
-                <td>Don't drive, Just crash!!</td>
-                <td>13+</td>
-                <td>120cm</td>
-                <td>
-                    <img src="https://images.unsplash.com/photo-1498891623634-6fad8510afa1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" alt="Bumper cars stationarily parked">
-                </td>
-            </tr>
-            <tr>
-                <td>FreeFall</td>
-                <td>Do you wanna feel alive? Just do it.</td>
-                <td>20+</td>
-                <td>120cm</td>
-                <td>
-                    <img src="https://live.staticflickr.com/5602/15554970896_db11c0600f_b.jpg" alt="Empty Freefall Ride">
-                </td>
-            </tr>
-            <tr>
-                <td>Roller-Coaster</td>
-                <td>Elevated railway with steep inclines and descents that carries a train of passengers through sharp curves and sudden changes of speed and direction for a brief thrill ride. Just make sure all screws are fastened...</td>
-                <td>10+</td>
-                <td>120cm</td>
-                <td>
-                    <img src="https://images.unsplash.com/photo-1567609894562-d00168e290f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=654&q=80" alt="Crowd enjyoing being in roller coaster">
-                </td>
-            </tr>
-            <tr>
-                <td>Merry-go-round</td>
-                <td>If you ever played on this PUKE CAUSING, CONCUSSION GIVING, BROKEN BONE MAKING, KID ROCKET LAUNCHING hunk of metals and survived...Go Warriors!!</td>
-                <td>8+</td>
-                <td>120cm</td>
-                <td>
-                    <img src="https://images.unsplash.com/photo-1562021157-92b3252962ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80" alt="Merry go round at twilight that's stationary">
-                </td>
-            </tr>
-        </table>
-    </div>
-<<<<<<< HEAD
-    <div #id='schedule'>
-=======
-    <div id='schedule'>
->>>>>>> main
-        <p>
-            Weekdays: 11 a.m. to 7 p.m
-        </p>
-        <p>
-            Weekend: 9 a.m. to 6 p.m.
-        </p>
-    </div>
-<<<<<<< HEAD
-    <div #id='contact'>
-        <p>Phone number: +44 4234659870</p>
-        <p>email: <a href="mailto: raceland@pmail.com">Click here</a></p>
-=======
-    <div id='contact'>
-        <p>Phone number: +44 4234659870</p>
-        <p>Email: raceland@pmail.com</p>
->>>>>>> main
-        <p><a href="#">Facebook</a></p>
-        <p><a href="#">Instagram</a></p>
-        <p><a href="#">Twitter</a></p>
-    </div>
-</body>
+        <div id="safety">
+            <h1 style="color: rgb(71, 13, 13);">Safety</h1>
+            <ul style="padding-left: 3rem;">
+                <li>Observe Age, Height and Weight requirements.</li>
+                <li>Follow instructions of ride operators.</li>
+                <li>
+                  Keep hands, arms and legs inside the ride at all times. Use
+                  safety equipment such as seat belt, shoulder harness or lap bar
+                  when provided.<br />
+                  Watch the ride in pertaion and make sure your child can ride it
+                  safely.
+                </li>
+              </ul>
 
-<<<<<<< HEAD
-</html>
-=======
-</html>
->>>>>>> main
+        </div>
+        <div id="offers">
+            <h1 style="color: rgb(71, 13, 13);">Offers and events</h1>
+            <ul style="padding-left: 3rem;">
+                <li>STUDENT DISCOUNT 5 Euros OFF</li>
+                <li>Wednesday Offer: CARTING 20% OFF</li>
+              </ul>
+        </div>
+        
+        
+            
+       
+        <!-- A section for covid information -->
+     
+        <!-- This is a section for list of rides -->
+        <div>
+            <h1 style="text-align: center; background-color: rgb(201, 21, 57); padding: 10px;">List of rides</h1>
+            <div class="info-container">
+                
+                <div class="info-item">
+                    <h1>Name of ride</h1>
+                </div>
+                <div class="info-item">
+                   <h1> Description</h1>
+                </div>
+                <div class="info-item">
+                    <h1>Age</h1>
+                </div>
+                <div class="info-item">
+                   <h1>Height</h1>
+                </div>
+                <div class="info-item">
+                    <h1>Picture</h1>
+                </div>
+            <!--Vr Stimulator-->
+                <div class="info-item">
+                    VR Simulation
+                </div>
+                <div class="info-item">
+                    Race in a VR world for a full immersive experience. You will be provided with a wheel, pedals and a VR headset.
+                </div>
+                <div class="info-item">
+                    13+
+                </div>
+                <div class="info-item">
+                    120 cm
+                </div>
+                <div class="info-item">
+                    <img class="ridepic" src="https://www.bmw.com/content/dam/bmw/marketBMWCOM/bmw_com/events/nextgen/innovation_technology/global_collaboration/p11_116_T7K9453_16x9_Video_Fallback.jpg?uri=%2Fen%2Fevents%2Fnextgen%2Fglobal-collaboration.json.videoplayer.video-1052734633.html&poster=%2Fcontent%2Fdam%2Fbmw%2FmarketBMWCOM%2Fbmw_com%2Fevents%2Fnextgen%2Finnovation_technology%2Fglobal_collaboration%2Fp11_116_T7K9453_16x9_Video_Fallback.jpg"
+                            alt="Man enjoying his VR simulation">
+                </div>
+               <!--Pendulum Ride-->  
+                <div class="info-item">
+                    Pendulum Rides
+                </div>
+                <div class="info-item">
+                    This ride will test the integrity of your stomach, so make sure you don't eat anything funny before riding.
+                </div>
+                <div class="info-item">
+                    16+
+                </div>
+                <div class="info-item">
+                    130 cm
+                </div>
+                <div class="info-item">
+                    <img class="ridepic" src="https://images.unsplash.com/photo-1609350450088-99bca752385c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1652&q=80" 
+                    alt="Pendulum ride on motion">
+                </div>
+
+                <!--Carting-->  
+                <div class="info-item">
+                    Carting
+                </div>
+                <div class="info-item">
+                    A genuine racing experience. Feel the need... the need for speed
+                </div>
+                <div class="info-item">
+                    18+
+                </div>
+                <div class="info-item">
+                    120 cm
+                </div>
+                <div class="info-item">
+                    <img class="ridepic" src="https://images.unsplash.com/photo-1560990817-2a0037ed1246?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80" 
+                    alt="Four men enjoying with their go-cart">
+                </div>
+
+                <!--Bumper Cars-->  
+                <div class="info-item">
+                    Bumper Cars
+                </div>
+                <div class="info-item">
+                    Don't drive, Just crash!!
+                </div>
+                <div class="info-item">
+                    13+
+                </div>
+                <div class="info-item">
+                    120 cm
+                </div>
+                <div class="info-item">
+                    <img class="ridepic" src="https://images.unsplash.com/photo-1498891623634-6fad8510afa1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                         alt="Bumper cars stationarily parked">
+                </div>
+
+                <!--FreeFall-->  
+                <div class="info-item">
+                    FreeFall
+                </div>
+                <div class="info-item">
+                    Do you wanna feel alive? Just do it.
+                </div>
+                <div class="info-item">
+                    20+
+                </div>
+                <div class="info-item">
+                    120 cm
+                </div>
+                <div class="info-item">
+                    <img class= "ridepic" src="https://live.staticflickr.com/5602/15554970896_db11c0600f_b.jpg" 
+                        alt="Empty Freefall Ride">
+                </div>
+
+                <!--Roller-Coaster-->  
+                <div class="info-item">
+                    Roller-Coaster
+                </div>
+                <div class="info-item">
+                    Elevated railway with steep inclines and descents that carries a train of passengers through sharp curves and sudden changes of speed and direction for a brief thrill ride. Just make sure all screws are fastened...
+                </div>
+                <div class="info-item">
+                    10+
+                </div>
+                <div class="info-item">
+                    120 cm
+                </div>
+                <div class="info-item">
+                    <img class= "ridepic" src="https://images.unsplash.com/photo-1567609894562-d00168e290f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=654&q=80" 
+                        alt="Crowd enjyoing being in roller coaster">
+                </div>
+
+                <!--Merry-go-Round-->  
+                <div class="info-item">
+                    Merry-go-Round
+                </div>
+                <div class="info-item">
+                    If you ever played on this PUKE CAUSING, CONCUSSION GIVING, BROKEN BONE MAKING, KID ROCKET LAUNCHING hunk of metals and survived...Go Warriors!!
+                </div>
+                <div class="info-item">
+                    8+
+                </div>
+                <div class="info-item">
+                    120 cm
+                </div>
+                <div class="info-item">
+                    <img class= "ridepic" src="https://images.unsplash.com/photo-1562021157-92b3252962ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80" 
+                    alt="Merry go round at twilight that's stationary">
+                </div>
+            </div>
+        </div>
+        
+        <div id='schedule' class="schedule">
+            <h1 class="schedule">
+                Schedule
+            </h1>
+            <p>
+                Weekdays: 11 a.m. to 7 p.m
+            </p>
+            <p>
+                Weekend: 9 a.m. to 6 p.m.
+            </p>
+        </div>
+        <div id='contact' class="info-contact">
+            <h1 class="info-contact-h1">Contact details</h1>
+            <p>Phone number: +44 4234659870</p>
+            <p>Email: raceland@pmail.com</p>
+            <p><a href="#">Facebook</a></p>
+            <p><a href="#">Instagram</a></p>
+            <p><a href="#">Twitter</a></p>
+        </div>
+    </body>
+    </html>
