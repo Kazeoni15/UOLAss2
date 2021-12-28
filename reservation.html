@@ -6,27 +6,38 @@
     <meta name="reservation" content="Reservation page">
     <meta name="author" content="Deekay & Dongwoo">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesReser.css">
+    <link rel="stylesheet" href="nav.css">
     <title>Reservation Page</title>
-    <link rel="stylesheet" href="reservation.style.css">
+    
 </head>
 
 <body>
     <!-- 
         header which will include logo and nav bar
      -->
-    <div class="header">
-        <!-- But Logo / Home both will redirect to index.html -->
-        <nav>
-            <ul>
-                <li>
-                    <a href="/index.html"><img src="./raceland.jpg" alt="logo/home "></a>
-                </li>
-                <li><a href="/index.html">Home</a></li>
-                <li><a href="/information.html">Information</a></li>
+     <nav id="navbar">
+        
+        <nav class="navbar">
+            <span class="navbar-toggle" id="js-navbar-toggle">
+              <i class="fas fa-bars"></i>
+            </span>
+            <a href="/index.html"
+              ><img src="raceland.png" alt="logo/home" class="logo"
+            /></a>
+            <ul class="main-nav">
+              <li>
+                <a href="/index.html" class="nav-links">Home</a>
+              </li>
+              <li>
+                <a href="/information.html" class="nav-links">Information</a>
+              </li>
+              <li>
+                <a href="/reservation.html" class="nav-links">Reservations</a>
+              </li>
             </ul>
-
-        </nav>
-    </div>
+          </nav>
+      
     <!-- this is body section that will include each ser    vice -->
     <div class="section_container">
         <!-- ticket item section -->
@@ -36,12 +47,12 @@
                 <b> TICKET </b>
 
                 <p> WEEKENDS </p>
-                <p style=f ont-size:small> Adult - 45€ </p>
-                <p style=f ont-size:small> Children - 30€ </p>
+                <p style=font-size:small> Adult - 45€ </p>
+                <p style=font-size:small> Children - 30€ </p>
 
                 <p> WEEKDAYS </p>
-                <p style=f ont-size:small> Adult - 35€ </p>
-                <p style=f ont-size:small> Children - 20€ </p>
+                <p style=font-size:small> Adult - 35€ </p>
+                <p style=font-size:small> Children - 20€ </p>
 
 
             </p>
@@ -60,9 +71,9 @@
                 <b> ACCOMODATION </b>
 
                 <p> SUNDAY ~ THURSDAY </p>
-                <p style=f ont-size:small> 100€/day </p>
+                <p style=font-size:small> 100€/day </p>
                 <p> FRIDAY ~ SATURDAY </p>
-                <p style=f ont-size:small> 150€/day </p>
+                <p style=font-size:small> 150€/day </p>
             </p>
             <!-- Purchase submission form -->
             <form class="purchase_info" method="post">
@@ -78,8 +89,8 @@
                 <b> RESTAURANTS </b>
                 <p> ALL YOU CAN EAT ! </p>
 
-                <p style=f ont-size:small> Adult - 25€ </p>
-                <p style=f ont-size:small> Children - 15€ </p>
+                <p style=font-size:small> Adult - 25€ </p>
+                <p style=font-size:small> Children - 15€ </p>
             </p>
             <!-- Purchase submission form -->
 
@@ -97,13 +108,13 @@
 
             <p class="Souvenir_description">
                 <b>Souvenirs</b>
-                <p style=f ont-size:small>Key Ring</p>
-                <p style=f ont-size:small>Mug Cup</p>
-                <p style=f ont-size:small>Pen</p>
-                <p style=f ont-size:small>Hoodie</p>
-                <p style=f ont-size:small>Doll</p>
-                <p style=f ont-size:small>Stuffed Animals</p>
-                <p style=f ont-size:small>Chocolate</p>
+                <p style=font-size:small>Key Ring</p>
+                <p style=font-size:small>Mug Cup</p>
+                <p style=font-size:small>Miniature</p>
+                <p style=font-size:small>Hoodie</p>
+                <p style=font-size:small>Doll</p>
+                <p style=font-size:small>Stuffed Animals</p>
+                <p style=font-size:small>Chocolate</p>
             </p>
             <!-- Purchase submission form -->
 
@@ -119,6 +130,15 @@
                 <input class="purchase_button" type="submit" value="submit">
             </form>
         </div>
+    </div>
+
+    <div class="contact">
+        <h1>Contact</h1>
+        <p>Phone number: +1 4234659870</p>
+        <p>email: raceland@pmail.com</p>
+        <p><a href="#">Facebook</a></p>
+        <p><a href="#">Instagram</a></p>
+        <p><a href="#">Twitter</a></p>
     </div>
 
 
