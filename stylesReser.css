@@ -149,7 +149,81 @@ body {
   width: 50%;
   align-items:center;
   
-  
+}
+
+
+/* reservation */
+
+.ticket_section {grid-area: one;}
+.acc_section {grid-area: two;}
+.rest_section {grid-area: three;}
+.souv_section {grid-area: four;}
+
+.reservation_container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-areas:
+    'header header header header header header'
+    'nav nav nav nav nav nav'
+    'one one one one one one'
+    'two two two two two two'
+    'three three three three three three'
+    'four four four four four four';
+}
+
+.reservation_container{
+  color: white;
+    background-color: black;
+    padding: 25px;
+    border: 20px solid white;
+    margin: 5px;
+}
+
+.ticket_section {
+    padding: 30px;
+    border: 2px solid firebrick;
+    border-radius: 8px;
+    margin: 3px;
+}
+
+.acc_section {
+  padding: 30px;
+  border: 2px solid firebrick;
+  border-radius: 8px;
+  margin: 3px;
+}
+
+.rest_section {
+  padding: 30px;
+  border: 2px solid firebrick;
+  border-radius: 8px;
+  margin: 3px;
+}
+
+.souv_section {
+  padding: 30px;
+  border: 2px solid firebrick;
+  border-radius: 8px;
+  margin: 3px;
+}
+
+.item_title{
+  font-size: 25px;
+  padding: 5px;
+  border: 2px solid maroon;
+}
+
+.item_des{
+  font-size: 20px;
+  padding: 15px;
+  margin: 5px;
 
 }
+
+.purchase_info {
+  padding: 10px;
+  margin: 5px;
+  border: 0.7px dotted maroon;
+}
+
 
