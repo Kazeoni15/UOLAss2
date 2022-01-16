@@ -65,6 +65,10 @@ body {
     width: 50%;
 }
 
+.ridepic:hover {
+    opacity: 0.5
+}
+
 
 /* map */
 
