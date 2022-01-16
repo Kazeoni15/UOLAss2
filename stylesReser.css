@@ -1,178 +1,176 @@
 * {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 body {
-  font-family: "Josefin Sans", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
 }
-
 
 
 /* Grid for information */
 
 .grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  
-  padding: 10px;
-  
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
 }
 
 .grid-item {
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
 }
 
-.grid-links{
-  text-decoration: none;
-  color: red;
+.grid-links {
+    text-decoration: none;
+    color: red;
 }
 
-.grid-links:hover{
-  color:black
+.grid-links:hover {
+    color: black
 }
 
 
 /* grid for list of rides */
 
-.listh1{
-  text-align: center;
-  width: 100%;
-  background-color:rgb(182, 14, 48) ;
-  padding: 20px;
-  
+.listh1 {
+    text-align: center;
+    width: 100%;
+    background-color: rgb(182, 14, 48);
+    padding: 20px;
 }
 
-.listh1:hover{
-  color:black
-
+.listh1:hover {
+    color: black
 }
 
 .list-container {
-  display: grid;
-  grid-template-columns: auto auto;
-  background-color: rgb(39, 30, 30);
-  color: white;  
-  padding: 10px;
-  
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: rgb(39, 30, 30);
+    color: white;
+    padding: 10px;
 }
 
-.list-item{
-  padding: 20px;
-  font-size: 19px;
-  text-align: center;
-  /* border: 1px solid rgba(245, 10, 10, 0.8); */
+.list-item {
+    padding: 20px;
+    font-size: 19px;
+    text-align: center;
+    /* border: 1px solid rgba(245, 10, 10, 0.8); */
 }
 
-.ridepic{
-  width: 50%;
-
+.ridepic {
+    width: 50%;
 }
+
 
 /* map */
 
-.map{
-  background-color:grey;
-  text-align: center;
-  padding: 20px;
+.map {
+    background-color: grey;
+    text-align: center;
+    padding: 20px;
 }
+
 
 /* schedule */
 
-.schedule{
-  background-color: rgb(39, 30, 30);
-  color: azure;
-  text-align: center;
-  padding-bottom: 20px;
-  
+.schedule {
+    background-color: rgb(39, 30, 30);
+    color: azure;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
-.schedule h1{
-  padding: 20px;
-
+.schedule h1 {
+    padding: 20px;
 }
+
 
 /* contact */
 
-.contact, .info-contact {
-  padding: 25px;
-  background-color: rgb(167, 151, 151);
-  text-align: center;
+.contact,
+.info-contact {
+    padding: 25px;
+    background-color: rgb(167, 151, 151);
+    text-align: center;
 }
 
 .info-contact-h1 {
-  padding: 15px;
+    padding: 15px;
 }
 
-.contact a{
-  text-decoration: none;
-  color: rgb(17, 0, 0);
+.contact a {
+    text-decoration: none;
+    color: rgb(17, 0, 0);
 }
 
-.contact a:hover{
-  color: white;
+.contact a:hover {
+    color: white;
 }
+
 
 /* information */
 
-.info-container{
-  display: grid;
-  grid-template-columns: auto auto auto auto auto;
-  color: white;
-  background-color: black;
-  padding: 10px;
-
+.info-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    color: white;
+    background-color: black;
+    padding: 10px;
 }
 
-.info-item{
-  padding: 20px;
-  font-size: 19px;
-  text-align: center;
-  font-family: Helvetica;
-  
-  /* border: 1px solid rgba(245, 10, 10, 0.8); */
-}
-.info-item h1{
-  font-size: 25px;
-  font-weight: bold; 
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
-
+.info-item {
+    padding: 20px;
+    font-size: 19px;
+    text-align: center;
+    font-family: Helvetica;
+    /* border: 1px solid rgba(245, 10, 10, 0.8); */
 }
 
-#covid, #safety, #offers{
-  
-  
-  padding: 25px;
-  width: 50%;
-  align-items:center;
-  
+.info-item h1 {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+}
+
+#covid,
+#safety,
+#offers {
+    padding: 25px;
+    width: 50%;
+    align-items: center;
 }
 
 
 /* reservation */
 
-.ticket_section {grid-area: one;}
-.acc_section {grid-area: two;}
-.rest_section {grid-area: three;}
-.souv_section {grid-area: four;}
+.ticket_section {
+    grid-area: one;
+}
+
+.acc_section {
+    grid-area: two;
+}
+
+.rest_section {
+    grid-area: three;
+}
+
+.souv_section {
+    grid-area: four;
+}
 
 .reservation_container {
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-template-areas:
-    'header header header header header header'
-    'nav nav nav nav nav nav'
-    'one one one one one one'
-    'two two two two two two'
-    'three three three three three three'
-    'four four four four four four';
+    grid-template-areas: 'header header header header header header' 'nav nav nav nav nav nav' 'one one one one one one' 'two two two two two two' 'three three three three three three' 'four four four four four four';
 }
 
-.reservation_container{
-  color: white;
+.reservation_container {
+    color: white;
     background-color: black;
     padding: 25px;
     border: 20px solid white;
@@ -187,43 +185,44 @@ body {
 }
 
 .acc_section {
-  padding: 30px;
-  border: 2px solid firebrick;
-  border-radius: 8px;
-  margin: 3px;
+    padding: 30px;
+    border: 2px solid firebrick;
+    border-radius: 8px;
+    margin: 3px;
 }
 
 .rest_section {
-  padding: 30px;
-  border: 2px solid firebrick;
-  border-radius: 8px;
-  margin: 3px;
+    padding: 30px;
+    border: 2px solid firebrick;
+    border-radius: 8px;
+    margin: 3px;
 }
 
 .souv_section {
-  padding: 30px;
-  border: 2px solid firebrick;
-  border-radius: 8px;
-  margin: 3px;
+    padding: 30px;
+    border: 2px solid firebrick;
+    border-radius: 8px;
+    margin: 3px;
 }
 
-.item_title{
-  font-size: 25px;
-  padding: 5px;
-  border: 2px solid maroon;
+.item_title {
+    font-size: 25px;
+    padding: 5px;
+    border: 2px solid maroon;
 }
 
-.item_des{
-  font-size: 20px;
-  padding: 15px;
-  margin: 5px;
+.item_title:hover {
+    opacity: 0.5;
+}
 
+.item_des {
+    font-size: 20px;
+    padding: 15px;
+    margin: 5px;
 }
 
 .purchase_info {
-  padding: 10px;
-  margin: 5px;
-  border: 0.7px dotted maroon;
+    padding: 10px;
+    margin: 5px;
+    border: 0.7px dotted maroon;
 }
-
-
